@@ -1,0 +1,156 @@
+/* Responsive Scale */
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape) {
+    body {
+        font-size: 12px;
+    }
+}
+
+body{
+    background-image: url(/assets/background.jpg);
+    filter: brightness(0.9);
+    background-size: cover;
+    overflow-y: scroll;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Content */
+
+.content{
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.containerBMI {
+    padding: 20px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+    /* Form BMI */
+    .formBMI{
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 15px;
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        color: white;
+    }
+
+        /* Form Detail */
+        .formBMI div{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .formBMI input{
+            border-radius: 5px;
+            border: none;
+            height: 20px;
+        }
+
+        .formBMI button{
+            border-radius: 5px;
+            border: none;
+            height: 30px;
+        }
+
+            /* Calculate Button */
+            .calculateBMI{
+                background-color: rgb(0, 155, 255);
+                color: white;
+            }
+
+            /* Reset Button */
+            .resetBMI{
+                background-color: rgb(255, 190, 0);
+            }
+
+    /* Result Container */
+    .containterResult{
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 15px;
+        padding: 15px;
+
+        text-align: justify;
+    }
+
+        /* Result Container Detail */
+        .result-BMI{
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            padding-top: 5px;
+            border-radius: 15px;
+
+            text-align: center;
+        }
+
+        .result-BMI button{
+            background-color: rgb(0, 155, 255);
+            border-radius: 5px;
+            border: none;
+            height: 30px;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .containterResult button{
+            background-color: rgb(0, 155, 255);
+            border-radius: 5px;
+            border: none;
+            height: 30px;
+            color: white;
+        }
+
+        /* Following Disease Container */
+        .followingDisease{
+            background-color: rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            padding: 10;
+            padding-bottom: 20px;
+
+            text-align: center;
+        }
+
+            /* Following Disease Categories  Detail*/
+            .followingDisease div{
+                padding: 5px;
+            }
+
+    /* Download App Container */    
+    .appDownload{
+        padding: 10px;
+        border-radius: 15px;
+
+        align-items: center;
+        text-align: center;
+    }
+
+    .appDownload a img{
+        width: 150px;
+    }
